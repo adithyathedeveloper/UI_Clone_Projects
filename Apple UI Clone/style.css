@@ -2822,3 +2822,43 @@ body {
     text-align: left;
     padding-bottom: 20px;
 }
+@media screen and (max-width: 900px){
+    .actgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.3fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}coo{
+    grid-column: 2/3;
+}
+.cot{
+    grid-column: 3/4;
+}
+.coth{
+    grid-column: 4/5;
+}
+.cof{
+    grid-column: 5/6;
+}
+.cofi{
+    grid-column: 7/8;
+}
+    
+}
+@media screen and (max-width: 550px) {
+    .somesometext{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.56);
+    padding-top: 16px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    max-width:65%;
+    gap: 100px;
+}
+}
